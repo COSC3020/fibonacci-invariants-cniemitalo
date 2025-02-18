@@ -1,10 +1,10 @@
 function fib(n) {
-    var fibonacci = [0]; 
-    findFib(n, fibonacci); 
-    return fibonacci; 
+    var nums = [0]; 
+    findFib(n, nums); 
+    return nums; 
 }
 
-function findFib(n, fibonacci) {
+function findFib(n, nums) {
     if (n < 0) { 
         return 0; 
     }
@@ -14,10 +14,10 @@ function findFib(n, fibonacci) {
     }
 
     if (n === 1) {
-        fibonacci[1] = 1; 
+        nums[1] = 1; 
         return 1; 
     }
 
-    fibonacci[n] = (findFib(n - 1, fibonacci)) + findFib(n - 2, fibonacci);  
-    return fibonacci[n]; 
+    nums[n] = (findFib(n - 1, nums)) + findFib(n - 2, nums);  
+    return nums[n]; 
 }
