@@ -28,6 +28,8 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
+My answer: 
+
 I think a good invariant for this recursive fibonacci function would be: at the beginning of every recursive call, the function is calculating n = (n - 1) + (n - 2) with fibonacci[0] = 0 and fibonacci[1] = 1. As each element in the array is the sum of the two from before, beginning with the first two, 0 and 1, which are their own values. This pattern is repeated through each recursive statement, so it will always hold true no matter what value of n you are calculating, or what cycle of recursion the program is on. Each element will be the sum of the two before it, after the first two elements are the value of themselves. 
 
 ### Sources and Plagiarism 
