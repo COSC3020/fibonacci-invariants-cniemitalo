@@ -1,0 +1,12 @@
+{
+  "name": "fibonacci-invariants-cniemitalo",
+  "version": "1.0.0",
+  "description": "Recall the definition of the Fibonacci series: the first number is 0, the second 1, and each subsequent number is the sum of the two numbers preceding it. Implement a function that computes the Fibonacci numbers recursively, storing the results in an array.",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
